@@ -40,6 +40,5 @@ frontend my_frontend
 
 backend my_backend_1
         balance roundrobin
-        server 15722-web-01 44.200.24.16:80 check
-    	server 15722-web-02 44.192.95.149:80 check
-        
+        server 52649-web-01 18.234.107.113 check
+        server 52649-web-02 100.26.162.214 check
